@@ -1,0 +1,4 @@
+PYBIND_DIR=$(python3 -c "import pybind11, sys; print(pybind11.get_cmake_dir())")
+echo "$PYBIND_DIR"
+cmake -S . -B build -DCMAKE_BUILD_TYPE=Release -Dpybind11_DIR="$PYBIND_DIR"
+cmake --build build -j"$(nproc)"

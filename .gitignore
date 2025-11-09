@@ -1,0 +1,58 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C/C++ build artifacts
+*.o
+*.so
+*.out
+*.a
+*.exe
+
+# Build directories
+build/
+dist/
+*.egg-info/
+
+# Virtual environments
+venv/
+.env/
+.venv/
+
+# Logs and caches
+*.log
+*.tmp
+*.swp
+*.bak
+.DS_Store
+
+# IDE / Editor settings
+.vscode/
+.idea/
+
+# OS generated files
+Thumbs.db
+
+# Dataset or large binary files
+data/
+*.csv
+*.zip
+*.tar
+*.gz
+*.pt
+*.pth
+*.ckpt
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+*.pt 
+
+/detect_parking_spot/parking_spot/
+
+*.zip
+
+*.pyc
+
+/__pycache__/
